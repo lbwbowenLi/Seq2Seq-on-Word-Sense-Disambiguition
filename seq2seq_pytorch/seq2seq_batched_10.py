@@ -740,6 +740,6 @@ while epoch < n_epochs:
 
 
 test_data = "/home/yi/Documents/rnn/test_10.txt"
-_, _, test_pairs = prepare_data('eng', 'fra', test_data, False)       
+input_lang, output_lang, test_pairs = prepare_data('eng', 'fra', test_data, False)       
 evaluate_pairs(test_pairs)
 
